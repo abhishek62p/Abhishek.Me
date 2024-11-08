@@ -10,6 +10,7 @@ export default {
         darklight: "#1F2937",
         lightgray: "#9CA3AF",
         gray: "#F3F4F6",
+        grayIn: "#9CA3AF",
         yellow: "#EAB308"
       },
     },

@@ -1,5 +1,5 @@
-export function Button() {
+export function Button({submit, handleSubmit}) {
     return <div>
-        <button className="bg-yellow font-medium text-black rounded-md py-2 px-4">Contact us</button>
+        <button type={submit} onSubmit={handleSubmit} className="bg-yellow font-medium text-black rounded-md py-2 px-4">Contact us</button>
     </div>
 }
